@@ -1,0 +1,418 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+b,
+em,
+i {
+  font-style: normal;
+}
+.b,
+b {
+  font-weight: 600;
+}
+body,
+html {
+  width: 100%;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.marginY10 {
+  margin: 10px 0;
+}
+.marginTop10 {
+  margin-top: 10px !important;
+}
+.marginTop20 {
+  margin-top: 20px !important;
+}
+.marginTop50 {
+  margin-top: 50px !important;
+}
+.marginY30 {
+  margin: 30px 0;
+}
+.marginY5 {
+  margin: 5px 0;
+}
+.center {
+  text-align: center;
+}
+.indent {
+  text-indent: 2em;
+}
+.b8 {
+  font-weight: 800;
+}
+.b7 {
+  font-weight: 700;
+}
+.font18 {
+  font-size: 18px;
+}
+.font24 {
+  font-size: 24px;
+}
+.font34 {
+  font-size: 34px;
+}
+.font800 {
+  font-weight: 800;
+}
+.fontRed {
+  color: #ff2941;
+}
+.color0 {
+  color: #000 !important;
+}
+.color1 {
+  color: #111 !important;
+}
+.color2 {
+  color: #222 !important;
+}
+.color3 {
+  color: #333 !important;
+}
+.color4 {
+  color: #444 !important;
+}
+.color5 {
+  color: #555 !important;
+}
+.color6 {
+  color: #666 !important;
+}
+.color11 {
+  color: #bbb !important;
+}
+.color12 {
+  color: #ccc !important;
+}
+.color16 {
+  color: #fff;
+}
+.circle {
+  border-radius: 50%;
+}
+.doubleBorder {
+  border: 1px dashed #fc0000;
+  outline: 2px solid #fc0000;
+  outline-offset: 2px;
+  margin-left: 4px;
+  padding: 2px 5px;
+  color: #fc0000;
+  display: inline-block;
+  margin-top: 10px;
+}
+.btn,
+.copyBtn,
+[clsss*=btn] {
+  cursor: pointer;
+}
+.letter-center {
+  text-align: center;
+}
+.modal {
+  opacity: 0;
+  z-index: -1;
+  position: fixed;
+  height: 100%;
+  background-color: rgba(102, 102, 102, 0.56);
+  top: 0;
+  left: 0;
+  transition: .5s;
+  padding: 0 20px 20px;
+}
+.modal,
+.modal img {
+  width: 100%;
+}
+.modal div {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  -webkit-transform: translate(50%, -50%);
+  -ms-transform: translate(50%, -50%);
+  transform: translate(50%, -50%);
+  width: 80%;
+  max-width: 350px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.modal div p {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+}
+.modal p {
+  margin-bottom: 20px;
+}
+.modal .succeed {
+  display: none;
+}
+.modal .succeed > .m-ewm {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+}
+.modal .WX {
+  opacity: 0;
+  padding-bottom: 20px;
+}
+.modal .WXNUM {
+  background-color: #d7172c;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 5px;
+}
+.modal .close {
+  position: absolute;
+  right: -15px;
+  top: -15px;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  background-color: #fff;
+  border-radius: 50%;
+}
+.home {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 2;
+  left: 0;
+  zoom: 1;
+  -ms-zoom: 1;
+}
+.wxBar {
+  background-color: #0a88ff;
+  padding: 5px 0;
+}
+.wxBar .wxBox {
+  margin: 0 auto;
+  padding: 10px 100px;
+  height: 64px;
+  text-align: center;
+  width: 640px;
+}
+.wxBar .wxBox > img {
+  width: 40px;
+  height: 40px;
+}
+.wxBar .wxBox > span {
+  display: inline-block;
+  color: #fff;
+  line-height: 44px;
+}
+.wxBar .wxBox > .copyBtn {
+  display: inline-block;
+  background-color: #ff0;
+  border-radius: 5px;
+  color: red;
+  padding: 0 5px;
+  margin-top: 13px;
+  font-size: 20px;
+}
+@media screen and (max-width: 456px) {
+  .wxBar .wxBox {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+.rightBox {
+  right: 50%;
+  position: fixed;
+  top: 50%;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  -webkit-transform: translate(50%, -50%);
+  -ms-transform: translate(50%, -50%);
+  transform: translate(50%, -50%);
+  text-align: center;
+}
+.rightBox .WXNUM {
+  border-radius: 5px;
+  background-color: #d7172c;
+  color: #fff;
+  font-size: 20px;
+}
+.streamer {
+  background-color: #d7f2fb;
+  text-align: center;
+  color: #666;
+  font-size: 14px;
+}
+.streamer > span {
+  margin: 0 10px;
+}
+[class^=mark] {
+  color: #ff2941;
+}
+img {
+  max-width: 100%;
+}
+body {
+  background-color: #efefef;
+}
+.app {
+  font-size: 16px;
+  color: #3e3e3e;
+  width: 640px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding-bottom: 10px;
+}
+.m-container {
+  line-height: 22px;
+}
+.m-container h1 {
+  font-size: 23px;
+  color: #000;
+}
+.m-container b {
+  font-size: 17px;
+}
+.m-container > img {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+}
+.m-container .doubleBorder {
+  font-weight: 600;
+  margin: 20px;
+}
+.rightBox {
+  margin-right: -420px;
+}
+.rightBox img {
+  width: 100px;
+}
+@media screen and (max-width: 650px) {
+  .app {
+    width: 100%;
+  }
+  .rightBox {
+    right: 0;
+    margin-right: 0;
+    -webkit-transform: initial;
+    -ms-transform: initial;
+    transform: none;
+  }
+  .rightBox img {
+    width: 50px;
+  }
+}
+.wxBar .wxBox > .copyBtn {
+  margin-top: 0;
+}
+.wxBox {
+  color: #d7f2fb;
+}
+.wxBox .fl {
+  font-size: 18px;
+}
+.wxBox .WXNUM {
+  font-size: 22px;
+  font-weight: 600;
+  color: #ff0;
+}
+.codeAD {
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1.85em;
+}
+.codeAD .codeADImg {
+  width: 266px;
+  height: 266px;
+  display: block;
+  margin: 0 auto;
+}
+.codeAD .copyBtn {
+  display: inline-block;
+  background-color: #f68c1f;
+  border-radius: 3px;
+  color: #fff;
+  margin-left: 5px;
+  padding: 2px;
+  cursor: pointer;
+}
+@media screen and (max-width: 456px) {
+  .codeAD {
+    width: 300px;
+  }
+}
+.btcode {
+  width: 100%;
+  color: #fff;
+  font-size: 1.2em;
+  line-height: 1.3em;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  font-weight: 700;
+}
+.modal .modal-box {
+  display: none;
+}
+.home {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 2;
+  left: 0;
+  zoom: 1;
+  -ms-zoom: 1;
+  padding-top: 3px;
+}
+.copyBtn {
+  cursor: pointer;
+}
+.streamer {
+  background-color: #d7f2fb;
+  text-align: center;
+  color: #666;
+  padding: 5px 0;
+  font-size: 14px;
+}
+.modal .m-ewm {
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+}
+.nextContent {
+  display: none;
+}
+.rightBox {
+  right: 50%;
+  margin-right: -420px;
+  width: 169px;
+  position: fixed;
+  top: 50%;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  background-color: #fff;
+  transform: translate(50%, -50%);
+  text-align: center;
+}
+.rightBox .WXNUM {
+  border-radius: 5px;
+  background-color: #d7172c;
+  color: #fff;
+  font-size: 20px;
+}
+.rightBox img {
+  width: 80%;
+}
+/**/
